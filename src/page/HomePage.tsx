@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import classNames from "classnames";
 
 import IntroSection from "../container/IntroSection";
+import Card from "../container/Card";
 
 function HomePage() {
   const [isHighlight, setIsHighlight] = useState(false);
@@ -9,12 +10,13 @@ function HomePage() {
 
   const homePageContainer = classNames(
     "bg-off-white w-full h-full relative px-10",
-    {"before:absolute before:contents-[] before:w-full before:h-full before:bg-gradient-to-t before:from-gold before:to-black before:opacity-80 before:inset-0 before:z-10":isHighlight}
+    {"overflow-hidden before:absolute before:contents-[] before:w-full before:h-full before:backdrop-blur-lg before:bg- before:inset-0 before:z-40":isHighlight}
   );
 
   return (
     <div className={homePageContainer}>
       <IntroSection isHighlight={isHighlight} handleClick={handleHighlight} />
+      <Card/> 
     </div>
   );
 }

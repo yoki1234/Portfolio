@@ -17,7 +17,7 @@ function Button({
 }: ButtonProps)
 {
 
-const ButtonStyle = classNames("w-fit h-fit py-1 px-6 drop-shadow-transparent rounded-lg drop-shadow-4md font-pixelify text-lg z-40 active:drop-shadow-5md bg-yellow-500")
+const ButtonStyle = classNames("w-fit h-fit py-1 px-6 drop-shadow-transparent rounded-lg drop-shadow-4md text-lg z-40 active:drop-shadow-5md bg-yellow-500")
 
 const btnText = isBtnActive ?  btnNonActiveText : btnActiveText;
 
