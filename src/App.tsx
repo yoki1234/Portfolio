@@ -5,6 +5,7 @@ import { Blog } from './pages/Blog'
 import { About } from './pages/About'
 
 
+
 function App() {
   return (
     <>
@@ -12,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/about" element={<About/>} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </>
   )
