@@ -1,0 +1,25 @@
+{
+  "name": "AKSHAY",
+  "title_content" : "Welcome to My Portfolio.",
+  "weather":{
+    "location":"Location",
+    "weather_condition":"Sunny",
+    "temperature":"75°F"
+  },
+  "carousel":[
+    { 
+      "title": "NHS Waiting Time Dashboard",
+      "description": "Power BI dashboard analyzing NHS Scotland wait times.",
+      "imageUrl": "src/assets/gratisography-cool-cat-800x525.jpg"
+    },
+    { 
+      "title": "Kerala Flood Prediction",
+      "description": "98% accuracy model with SHAP explainability.",
+      "imageUrl": "src/assets/gratisography-cool-cat-800x525.jpg" 
+    },
+    { 
+      "title": "Netflix Clone",
+      "description": "React + TypeScript clone using TMDB API.", "imageUrl": "src/assets/gratisography-cool-cat-800x525.jpg" 
+    }
+  ]
+}

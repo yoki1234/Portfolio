@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 
 interface SplitFlapTextProps {
   text: string
-  flapDelay?: number      // ms between each letter starting its flip
+  flapDelay?: number      // ms between each letter starting its 
   flipSpeed?: number      // ms between each random-letter frame
   className?: string      // styles for each flap cell
 }
